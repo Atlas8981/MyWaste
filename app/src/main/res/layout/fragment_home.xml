@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        // Discover textView
+        <TextView
+            android:id="@+id/disoverTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/discover"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="0dp"
+            android:textColor="#000000"/>
+
+        // Plastic imageView
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="25dp"
+            app:cardElevation="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+            <ImageView
+                android:id="@+id/plasticImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="plasticOnClickListener"
+                android:scaleType="centerCrop"
+                android:src="@drawable/plastic"
+                tools:ignore="ContentDescription" />
+        </androidx.cardview.widget.CardView>
+
+        // Furniture imageView
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="25dp"
+            app:cardElevation="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+            <ImageView
+                android:id="@+id/furnitureImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="furnitureOnClickListener"
+                android:scaleType="centerCrop"
+                android:src="@drawable/furniture"
+                tools:ignore="ContentDescription" />
+        </androidx.cardview.widget.CardView>
+
+        // Electronic imageView
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="25dp"
+            app:cardElevation="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+            <ImageView
+                android:id="@+id/electronicImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="electronicOnClickListener"
+                android:scaleType="centerCrop"
+                android:src="@drawable/electronic"
+                tools:ignore="ContentDescription" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</FrameLayout>

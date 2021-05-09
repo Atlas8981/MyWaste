@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "103360406903",
+    "firebase_url": "https://mywaste-482ba.firebaseio.com",
+    "project_id": "mywaste-482ba",
+    "storage_bucket": "mywaste-482ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103360406903:android:b05ee039560a525f5f6d72",
+        "android_client_info": {
+          "package_name": "com.example.mywaste"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103360406903-26jm31mmtr8alu4pgab6fu48vgfv1ikr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuA6hyXhuM6l-ZDyDrTnpYN5t1CD-gys0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103360406903-26jm31mmtr8alu4pgab6fu48vgfv1ikr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "103360406903-h0avah25u3f357kq1d2d74pc1gf8dquq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "YengLyhour.testkluneng"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

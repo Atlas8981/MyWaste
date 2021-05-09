@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MyWaste</string>
+
+    <string-array name="categories">
+        <item>Furniture</item>
+        <item>Plastic</item>
+        <item>Electronic</item>
+    </string-array>
+
+    <string name="plasticimage">plasticImage</string>
+    <string name="furnitureimage">furnitureimage</string>
+    <string name="electronicimage">electronicimage</string>
+    <string name="discover">Discover</string>
+    <string name="additem">Add Item</string>
+    <string name="category">Category:</string>
+    <string name="upload">UPLOAD</string>
+    <string name="itemName">Item name</string>
+    <string name="amount">Amount</string>
+    <string name="price">Price(USD)</string>
+    <string name="address">Address</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="description">Description:</string>
+    <string name="photo">Photo</string>
+    <string name="desc">Description:</string>
+    <string name="phone">Tel:</string>
+    <string name="address2">Address:</string>
+    <string-array name="categoryList">
+        <item>Plastic</item>
+        <item>Furniture</item>
+        <item>Electronic</item>
+    </string-array>
+</resources>
