@@ -51,7 +51,7 @@ public class EditMyItemActivity extends AppCompatActivity {
     private final FirebaseFirestore firestore = FirebaseFirestore.getInstance();
     private final CollectionReference itemRef = firestore.collection("items");
 
-    private FirebaseStorage firebaseStorage = FirebaseStorage.getInstance();
+    private final FirebaseStorage firebaseStorage = FirebaseStorage.getInstance();
 
     private Spinner categorySpinner;
     private LinearLayout deleteBtn;
